@@ -38,7 +38,7 @@ def loads(names):
             nn=n.split(",")
             x=int(nn[0].strip())
             y=int(nn[1].strip())
-            z=int(nn[1].strip())
+            z=int(nn[2].strip())
             list1=list1+[[x,y,z]]
     return list1
 
